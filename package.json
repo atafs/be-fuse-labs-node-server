@@ -1,0 +1,23 @@
+{
+  "name": "fuse-labs-node-server",
+  "version": "1.0.0",
+  "description": "Node server for the Internet of Things in the Fuse labs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atafs/fuse-labs-node-server.git"
+  },
+  "author": "Fuse Labs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atafs/fuse-labs-node-server/issues"
+  },
+  "homepage": "https://github.com/atafs/fuse-labs-node-server#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
