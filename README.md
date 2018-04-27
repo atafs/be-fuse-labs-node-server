@@ -35,4 +35,20 @@ Create a node server
 
 #### update git remotes
 > git remote rm heroku
+
 > heroku git:remote -a fuse-labs-arduino-lights
+
+## config local mongoDB
+#### download mongoDB: https://www.mongodb.com/download-center#community
+
+#### unpack the zip folder, rename it to mongo add place it in the user directory
+
+#### create the data directory
+> mkdir ~/mongo-data
+
+#### go to directory and run the db
+> cd ~/mongo/bin
+
+> ./mongod --dbpath ~/mongo-data
+
+
