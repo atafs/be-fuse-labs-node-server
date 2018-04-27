@@ -22,3 +22,17 @@ Create a node server
 
 #### check ssh connection
 > ssh -v git@heroku.com
+
+#### create the app
+> heroku create
+
+#### push with git
+> git push heroku
+
+#### rename the app url
+> heroku apps:rename fuse-labs-arduino-lights
+
+
+#### update git remotes
+> git remote rm heroku
+> heroku git:remote -a fuse-labs-arduino-lights
