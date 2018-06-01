@@ -47,8 +47,16 @@ Create a node server
 > mkdir ~/mongo-data
 
 #### go to directory and run the db
-> cd ~/mongo/bin
-
+> cd ~/mongo/bin \
 > ./mongod --dbpath ~/mongo-data
+
+#### access mongo db shell
+> ./mongo
+
+> show dbs \
+> use FuseLabs \
+> show collections \
+> db.polls.find()
+
 
 
